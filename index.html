@@ -6,50 +6,46 @@
     <title>Login Form & Table</title>
 </head>
 <body>
-    <h3 align="center"><u>Sign Up Form</u></h3>
-    <form align="center">
+    <h1>Sign Up</h1>
+    <form>
         
-      
-          <label for="fname"></label>
-          <input type="text" placeholder="Enter First Name" name="fname" required id="fname">
+          <label for="fname"><b>First Name  :</b></label>
+          <input type="text" placeholder="Enter First Name" required id="fname">
           <br> <br>
 
-          <label for="secname"></label>
-          <input type="text" placeholder="Enter Second Name" name="secname" required id="secname" id="secname"> <br> <br>
+          <label for="secname"><b>Second Name  :</b></label>
+          <input type="text" placeholder="Enter Second Name"  required id="secname" id="secname"> <br> <br>
       
 
-          <label for="fname"></label>
-          <input type="text" placeholder="Mobile number & email address" name="fname" required id="fname"> <br> <br>
+          <label for="mobile"><b>Mobile number or email address  :</b></label>
+          <input type="text" placeholder="Mobile number or email address"  required id="mobile"> <br> <br>
 
 
-          <label for="psw"></label>
-          <input type="password" placeholder="New Password" name="psw" required> <br> <br>
+          <label for="psw"><b>Password  :</b></label>
+          <input type="password" placeholder="New Password" id="psw" required> <br> <br>
 
-        <label for=""><b>Date of Birth</b></label>
-        <input type="date"> <br> <br>
-        
-        <label for="gender">Female</label>
-        <input type="radio" id="gender">
-        <label for="gender">Male</label>
-        <input type="radio" id="gender">
-        <label for="gender">Custom</label>
-        <input type="radio" id="gender">
-      
-          <!-- <button type="submit">Login</button>
-          <label>
-            <input type="checkbox" checked="checked" name="remember"> Remember me
-          </label>
-    
-          <button type="button" class="cancelbtn">Cancel</button>
-          <span class="psw">Forgot <a href="#">password?</a></span> -->
+          <label for="date"><b>Date of Birth  :</b></label>
+          <input type="date" id="date" required > <br> <br>
+          <b>Gender  :</b>
+          <input type="radio" id="male" name="gender">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" >
+          <label for="female">Female</label>
+          <input type="radio" id="custom" name="gender" >
+          <label for="custom">Custom</label>
+          <br> <br>
+
+        <button>Sign Up</button>
+  
       </form>
+      <h3>Want to Login in? Click <span><button><a href="sign.html" target="_blank">Log in</a></button></span></h3>
       
 
 
 
 
 
-    <br><br><br><br><br>
+    <br><br><br>
     <!-- Table Start -->
     <h2 align="center "><u>Student List</u></h2>
     <table border="2" cellspacing="0" width="50%" cellpadding="20%" align="center">
