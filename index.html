@@ -6,19 +6,19 @@
     <title>Login Form & Table</title>
 </head>
 <body>
-    <h1>Sign Up</h1>
+    <h1>Facebook Sign Up Demo</h1>
     <form>
         
           <label for="fname"><b>First Name  :</b></label>
-          <input type="text" placeholder="Enter First Name" required id="fname">
+          <input type="text" placeholder="Enter your First Name" required id="fname">
           <br> <br>
 
           <label for="secname"><b>Second Name  :</b></label>
-          <input type="text" placeholder="Enter Second Name"  required id="secname" id="secname"> <br> <br>
+          <input type="text" placeholder="Enter your Second Name"  required id="secname" id="secname"> <br> <br>
       
 
-          <label for="mobile"><b>Mobile number or email address  :</b></label>
-          <input type="text" placeholder="Mobile number or email address"  required id="mobile"> <br> <br>
+          <label for="mobile"><b>E-mail Address  :</b></label>
+          <input type="text" placeholder="Enter email address"  required id="mobile"> <br> <br>
 
 
           <label for="psw"><b>Password  :</b></label>
@@ -34,53 +34,53 @@
           <input type="radio" id="custom" name="gender" >
           <label for="custom">Custom</label>
           <br> <br>
-
         <button>Sign Up</button>
-  
       </form>
-      <h3>Want to Log in? Click <span><button><a href="sign.html" target="_blank">Log in</a></button></span></h3>
-      
-
-
-
-
-
+      <h3>Want to Log in? Click <span><button><a href="sign.html" target="_blank"><b>Log in</b></a></button></span></h3>
     <br><br><br>
+    <hr>
     <!-- Table Start -->
-    <h2 align="center "><u>Student List</u></h2>
+    <h2 align="center "><u>Student Present List</u></h2>
     <table border="2" cellspacing="0" width="50%" cellpadding="20%" align="center">
-        <thead>
-            <tr>
+        <thead style="color: white;">
+            <tr bgcolor="purple" >
                 <th>Student ID</th>
                 <th>Name</th>
-                 <th>Address</th>
-                <th>Phone Number</th>
+                 <th>Present</th>
+                <th>Home Work</th>
              </tr>
+            </thead>
+            <tbody>
              <tr>
                 <td>01</td>
                 <td>Mir Md Salman Farsi</td>
-                <td>Anywhere</td>
-                <td>Unknown</td>
-
+                <td> <input type="checkbox"></td>
+                <td><input type="checkbox"></td>
              </tr>
              <tr>
                 <td>02</td>
                 <td>Abdul Amin</td>
-                <td>Anywhere</td>
-                <td>Unknown</td>
-
+                <td> <input type="checkbox"></td>
+                <td><input type="checkbox"></td>
              </tr>
              <tr>
                 <td>03</td>
                 <td>Shakawat Hossain</td>
-                <td>Anywhere</td>
-                <td>Unknown</td>
-
+                <td> <input type="checkbox"></td>
+                <td><input type="checkbox"></td>
              </tr>
-            
-        </thead>
+        
+            </tbody>
     </table>
+    <br>
+    <div align="center">
+        <button>Submit</button>
+
+    </div>
     <!-- Table end -->
-    
+     <hr>
+     <footer>
+        <p>Created by Mir Md Salman Farsi</p>
+     </footer>
 </body>
 </html>
